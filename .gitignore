@@ -1,4 +1,5 @@
 jarvis-env
+token
 *.mp3
 .idea
 *pyc
