@@ -1,4 +1,3 @@
-import logging
 import speech_recognition as sr
 import gtts
 
@@ -34,7 +33,6 @@ class Read:
 
         try:
             command = rec_vocale.recognize_google(audio, language=lang)
-            logging.info(command)
             return command
 
         except sr.UnknownValueError:

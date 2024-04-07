@@ -3,6 +3,9 @@ import os
 import datetime
 
 
+def alarm():
+    pass
+
 def hello():
     text = "1 plus 1 égal 11 ! hahaha poisson d'avril"
 
